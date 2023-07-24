@@ -1,0 +1,53 @@
+/* Generic CSS */
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+
+    font-family: 'SignikaNegative';
+}
+
+.noSelect{
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none; 
+    user-select: none;
+}
+
+body{
+    background-color: #08383a;
+}
+
+main{
+    color: white;
+    text-align: center;
+}
+
+/* specfic divs */
+.center{
+    margin: 5% 30%;
+}
+
+.username-area{
+    max-width: 100%;
+    align-items: center;
+}
+
+/* specific elements */
+.pfp{
+    border-radius: 50%;
+    width: 5em;
+    height: 5em;
+}
+
+.username{
+    font-size: 4em;
+    font-weight: 700;
+    max-width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+
